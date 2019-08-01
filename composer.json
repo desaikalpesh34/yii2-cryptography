@@ -1,0 +1,21 @@
+{
+    "name": "desaikalpesh34/yii2-cryptography",
+    "description": "yii2-cryptography automate encryption decription",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","cryptography","encryption","decryption",""],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalpesh Desai",
+            "email": "desaikalpesh34@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cryptography\\": ""
+        }
+    }
+}
