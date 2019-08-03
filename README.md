@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist desaikalpesh34/yii2-cryptography "*"
+php composer.phar require --prefer-dist desaikalpesh34/yii2-cryptography "dev-master"
 ```
 
 or add
 
 ```
-"desaikalpesh34/yii2-cryptography": "*"
+"desaikalpesh34/yii2-cryptography": "dev-master"
 ```
 
 to the require section of your `composer.json` file.
@@ -31,7 +31,7 @@ Add the following lines in the ```components``` section of your config file.
 
 ```
 'crypto'=> [
-		    'class'=>'class'=>'\cryptography\components\Crypto',
+		    'class'=>'\cryptography\components\Crypto',
 		    'secrateKey'=>'SecrateKeyGoesHere',
 	    ],
 ```

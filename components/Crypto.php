@@ -23,7 +23,7 @@ class Crypto extends Component
     /**
      * Sets the secrate key for the encrypter
      */
-    private function setSecrateKey($secrateKey)
+    public function setsecrateKey($secrateKey)
     {
         $this->_secrateKey = $this->generateCipherText($secrateKey);
     }
