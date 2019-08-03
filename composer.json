@@ -1,9 +1,9 @@
 {
     "name": "desaikalpesh34/yii2-cryptography",
-    "description": "yii2-cryptography automate encryption decription",
+    "description": "yii2-cryptography automate encryption decryption",
     "type": "yii2-extension",
-    "keywords": ["yii2","extension","cryptography","encryption","decryption",""],
-    "license": "MIT",
+    "keywords": ["yii2","extension","cryptography","encryption","decryption","automation","AES Encryption","AES Decryption","Mysql encryption"],
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "Kalpesh Desai",
